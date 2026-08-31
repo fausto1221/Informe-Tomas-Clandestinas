@@ -1,11 +1,11 @@
-# Informe-Tomas-Clandestinas
+# Reporte de Tomas Clandestinas (2023)
 ## Reporte de Tomas Clandestinas 2019-2022 | Oficina de enlace de la subgerencia de gestión de derechos de uso y ocupación superficial (SGDUOS) Salamanca.
 
 ### Link al Dasboard: https://app.powerbi.com/groups/me/reports/e6334dd7-fa4c-4836-b8ef-bbd6625b9142/d057179ca41268483d49?experience=power-bi
 
 ## Resumen del Proyecto
 
-La oficina de enlace de la subgerencia de gestión de derechos de uso y ocupación superficial (SGDUOS) Salamanca, requería conocer el estado de las tomas clandestinas del sector bajío, con el propósito de evaluar las políticas implementadas desde el nivel federal. 
+En 2023 La oficina de enlace de la subgerencia de gestión de derechos de uso y ocupación superficial (SGDUOS) Salamanca, requería conocer el estado de las tomas clandestinas del sector bajío, con el propósito de evaluar las políticas implementadas desde el nivel federal a finales de 2018. 
 Si bien, distintas áreas cuentan con archivos que contienen información sobre las incidencias, esta información no esta consolidada ni unificada, peor aun, ya que la información proviene directamente de reportes de campo, la información suele venir incompleta, no estandarizada o de plano incorrecta (coordenadas geográficas que no están en el país por ejemplo).
 Es por esto que se me solicito desarrollar una solución que atendiera esta problemática. La solución fue desarrollar un pipeline para los reportes anuales. Que fuese replicable y aplicable para los siguientes años, con este pipeline se puede extraer
 la información de los reportes de campo o informes anuales (usualmente en formato .xlsx conocidos popularmente como "Excel"), limpiarla y normalizarla para posteriormente subirla a una base de datos y disponer de ella. 
