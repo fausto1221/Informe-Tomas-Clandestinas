@@ -1,9 +1,9 @@
 # Informe-Tomas-Clandestinas
-Reporte de Tomas Clandestinas 2019-2022 | Oficina de enlace de la subgerencia de gestión de derechos de uso y ocupación superficial (SGDUOS) Salamanca.
+## Reporte de Tomas Clandestinas 2019-2022 | Oficina de enlace de la subgerencia de gestión de derechos de uso y ocupación superficial (SGDUOS) Salamanca.
 
 ### Link al Dasboard: https://app.powerbi.com/groups/me/reports/e6334dd7-fa4c-4836-b8ef-bbd6625b9142/d057179ca41268483d49?experience=power-bi
 
-## Contexto
+## Resumen del proyecto
 
 La oficina de enlace de la subgerencia de gestión de derechos de uso y ocupación superficial (SGDUOS) Salamanca, requería conocer el estado de las tomas clandestinas del sector bajío, con el propósito de evaluar las políticas implementadas desde el nivel federal. 
 Si bien, distintas áreas cuentan con archivos que contienen información sobre las incidencias,esta información no esta consolidada ni unificada. Peor aun, ya que la información proviene directamente de reportes de campo, la información suele venir, incompleta, no estandarizada o de plano incorrecta (coordenadas geográficas que no están en el país por ejemplo).
@@ -130,7 +130,7 @@ El modelo permite construir visualizaciones como:
 * rankings de municipios y ductos.
 
 
-# El Reporte ejecutivo
+# El Reporte Ejecutivo
 
 La Oficina de Enlace de SGDUOS Salamanca, Guanajuato requería conocer la situación de las tomas clandestinas en el sector que supervisa. En este caso el corredor mencionado comprende el estado de Guanajuato y se vincula directamente
 con el estado de Querétaro, Michoacán, San Luis Potosí y Jalisco. Otros estados involucrados son Hidalgo, Estado de México y Zacatecas que aunque no son colindantes, la comunicación de los ductos, hace necesario conocer y dar seguimiento a los incidentes registrados
@@ -176,14 +176,15 @@ Todo esto fue posible debido a la normalización de coordenadas geográficas, qu
 Con ello se puede identificar el punto exacto.
 
 ## Tecnologías
-Tecnología	          Uso
-Python      |	Desarrollo del pipeline
-Pandas      |	Manipulación y transformación
-PyArrow     |	Formato Parquet
-Parquet     |	Almacenamiento intermedio
-PostgreSQL  |	Base de datos analítica
-SQLAlchemy	| Conexión Python–PostgreSQL
-Power BI    | Visualización
+| Tecnología	| Uso |
+| --- | --- |
+| Python      |	Desarrollo del pipeline |
+| Pandas      |	Manipulación y transformación |
+| PyArrow     |	Formato Parquet |
+| Parquet     |	Almacenamiento intermedio |
+| PostgreSQL  |	Base de datos analítica |
+| SQLAlchemy	| Conexión Python–PostgreSQL |
+| Power BI    | Visualización |
 
 
 ## Autor
